@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="fonts-style.css">
+  <title>Document</title>
+</head>
+<body>
+
+
+  <div class="navigation">
+    <span style="--i:0;--x:-1;--y:0;" ><i class="icon-instagram"></i></span>
+    <span style="--i:1;--x:1;--y:0;"><i class="icon-whatsapp"></i></span>
+    <span style="--i:2;--x:0;--y:-1;"><i class="icon-telegram"></i></span>
+    <span style="--i:3;--x:0;--y:1;"><i class="icon-twitter"></i></span>
+    <span style="--i:4;--x:1;--y:1;"><i class="icon-twitch"></i></span>
+    <span style="--i:5;--x:-1;--y:-1;"><i class="icon-github"></i></span>
+    <span style="--i:6;--x:0;--y:0;"><i class="icon-linkedin2"></i></span>
+    <span style="--i:7;--x:-1;--y:1;"><i class="icon-stackoverflow"></i></span>
+    <span style="--i:8;--x:1;--y:-1;"><i class="icon-pinterest2"></i></span>
+  </div>
+
+  <script>
+    let navigation = document.querySelector('.navigation')
+    navigation.addEventListener( "click" , () => {
+      navigation.classList.toggle('active')
+    })
+  </script>
+</body>
+</html>
